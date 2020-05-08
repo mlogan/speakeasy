@@ -1,3 +1,7 @@
+## This is a fork of https://github.com/speakeasyjs/speakeasy, which has been unmaintained for 4 years.
+
+This fork isn't under active development (by me). I will happily merge your PRs and publish new versions to npm.
+
 <img src="http://i.imgur.com/qRyNMx4.png" width="550">
 
 [![Build Status](https://travis-ci.org/speakeasyjs/speakeasy.svg?branch=v2)](https://travis-ci.org/speakeasyjs/speakeasy)
