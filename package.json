@@ -1,7 +1,7 @@
 {
   "name": "squeakeasy",
   "description": "Fork of unmaintained module speakeasy. Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Mark Bao & Speakeasy Contributors",
     "email": "mark@markbao.com"
