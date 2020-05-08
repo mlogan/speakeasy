@@ -6,13 +6,16 @@
     "name": "Mark Bao & Speakeasy Contributors",
     "email": "mark@markbao.com"
   },
-  "contributors": [{
-    "name": "Michael Phan-Ba",
-    "email": "michael@mikepb.com"
-  }, {
-    "name": "Guy Halford-Thompson",
-    "email": "guy@cach.me"
-  }],
+  "contributors": [
+    {
+      "name": "Michael Phan-Ba",
+      "email": "michael@mikepb.com"
+    },
+    {
+      "name": "Guy Halford-Thompson",
+      "email": "guy@cach.me"
+    }
+  ],
   "homepage": "http://github.com/speakeasyjs/speakeasy",
   "bugs": "https://github.com/speakeasyjs/speakeasy/issues",
   "keywords": [
@@ -38,16 +41,16 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "base32.js": "0.0.1"
+    "base32.js": "0.1.0"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "coveralls": "^2.11.6",
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
     "istanbul": "^0.4.2",
     "jsdoc": "^3.3.1",
-    "mocha": "^2.2.5",
-    "semistandard": "^7.0.5",
-    "snazzy": "^2.0.1"
+    "mocha": "^7.1.2",
+    "semistandard": "^14.2.0",
+    "snazzy": "^8.0.0"
   },
   "scripts": {
     "test": "mocha",
