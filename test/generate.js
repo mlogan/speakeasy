@@ -82,7 +82,7 @@ describe('Generator tests', function () {
       name: 'Example:alice@google.com'
     });
 
-    var secret = new Buffer(answer.ascii, 'ascii');
+    var secret = new Buffer(answer.hex, 'hex');
     if (Buffer.isBuffer(secret)) secret = base32.encode(secret);
 
     var expect = 'otpauth://totp/Example%3Aalice%40google.com?secret=' + secret + '&algorithm=SHA1&digits=6&period=30';
@@ -97,7 +97,7 @@ describe('Generator tests', function () {
       name: 'Example:alice@google.com'
     });
 
-    var secret = new Buffer(answer.ascii, 'ascii');
+    var secret = new Buffer(answer.hex, 'hex');
     if (Buffer.isBuffer(secret)) secret = base32.encode(secret);
 
     var expect = 'otpauth://totp/Example%3Aalice%40google.com?secret=' + secret + '&algorithm=SHA1&digits=6&period=30';
@@ -131,7 +131,7 @@ describe('Generator tests', function () {
       issuer: 'issuer name'
     });
 
-    var secret = new Buffer(answer.ascii, 'ascii');
+    var secret = new Buffer(answer.hex, 'hex');
     if (Buffer.isBuffer(secret)) secret = base32.encode(secret);
 
     var expect = 'otpauth://totp/Example%3Aalice%40google.com?secret=' + secret + '&issuer=issuer%20name&algorithm=SHA1&digits=6&period=30';
